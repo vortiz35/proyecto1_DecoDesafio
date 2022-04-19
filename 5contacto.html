@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--logo de la pag-->
+    <link rel="shortcut icon" href="./Media/Logo/favicon.ico">
+    <!--FUENTE ELEGIDA PARA HEADER-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    
+    <!--FUENTE ELEGIDA PARA EL RESTO DE LA WEB-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+
+    <!--ESTILO CSS-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>DecoDesafio - Contacto</title>
+</head>
+<body class="contenedor">
+    <header class="barraArriba">
+        <h1 id="subir5">CONTACTO 💌</h1>
+        <nav>              
+            <ul class="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./2exterior.html">Exterior</a>
+                    <ul>
+                        <li>Patio</li>
+                        <li>Balcón</li>
+                        <li>Jardín</li>
+                    </ul>                
+                </li>
+                <li><a href="./3interior.html">Interior</a></li>
+                <li><a href="./4ideas.html">Ideas</a></li>
+                <li><a href="./5contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="espacioMain">        
+        <h2>Envianos tu consulta</h2>
+        <section class="formulario"> <!---Formulario-->
+            <form action="">
+                <div>
+                    <label for="nombre"> Nombre: </label>
+                    <input class="rectangulo" type="text" name="nombre">
+                </div>
+                <div>
+                    <label for="email"> E-mail*:  </label>
+                    <input class="rectangulo" type="email" name="email" required>
+                </div>
+                <div>
+                    <label for="consulta">Consulta:</label><br>
+                    <textarea name="consulta" cols="55" rows="5"></textarea>
+                </div>
+                <input class="circulo" type="radio" value="si">Quiero recibir novedades
+                <input class="enviar" type="submit" value="Enviar">
+            </form>
+        </section>
+        
+        <section><!---Tabla-->
+            <h3>Dónde encontrarnos 🚀  </h3>
+            <table border="1" cellpadding="5px">
+                <tr><!---Fila 1 títulos--->
+                    <th> Sede </th> <!---Columna 1 de Fila1-->
+                    <th> Dirección </th> <!---Columna 2 de Fila1-->
+                </tr>
+                <tr><!---Fila 2 Sede Belgrano--->
+                    <td> Belgrano </td>
+                    <td> bla bla bla</td>
+                </tr>
+                <tr><!---Fila 3 Sede Cardales--->
+                    <td> Cardales </td>
+                    <td> bla bla bla</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <div class="pieDePagina">
+            <p>DecoDesafío Design</p> 
+            <a href="./5contacto.html">Contacto</a>
+            <p>Valeria Ortiz Etchepare</p>
+            <a href="#subir5">Subir</a>
+        </div>
+        <div class="pieDePagina">
+            <img src="./Media/Logo/apple-touch-icon.png" alt="Logo en pie" width="100px">
+        </div>
+    </footer>
+</body>
+</html>
+
