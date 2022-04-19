@@ -164,12 +164,14 @@ ul li:hover ul{
 }
 
 .imgDeIntro img{
-    width: 500px;
+    width: 480px;
+    transition: width 2s;
 }
 
 .imgDeIntro img:hover{
     opacity: 0.8;
-    width: 450px;
+    transform: rotateY(20deg);
+    width: 500px;
 }
 
 
@@ -178,7 +180,7 @@ footer{
     margin: 20px;
     line-height: 1.6;
     padding: 20px;
-    background-color: beige;
+    background-image: linear-gradient(to right, rgb(238, 238, 78), beige);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
